@@ -1,15 +1,17 @@
 //
-//  FDViewController.h
+//  Label.m
 //  CoreDataExample
 //
 //  Created by Daniel Fairbanks on 5/7/14.
 //  Copyright (c) 2014 Fairbanksdan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface FDViewController : UIViewController
+#import "Label.h"
 
 
+@implementation Label
+
+@dynamic name;
+@dynamic artists;
 
 @end

@@ -21,6 +21,11 @@
 		D639660F191A9604008F5CB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63965F1191A9604008F5CB5 /* UIKit.framework */; };
 		D6396617191A9604008F5CB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6396615191A9604008F5CB5 /* InfoPlist.strings */; };
 		D6396619191A9604008F5CB5 /* CoreDataExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6396618191A9604008F5CB5 /* CoreDataExampleTests.m */; };
+		D6396627191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D6396626191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.m */; };
+		D639662A191A9B8C008F5CB5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6396628191A9B8C008F5CB5 /* Model.xcdatamodeld */; };
+		D639662D191A9DD9008F5CB5 /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = D639662C191A9DD9008F5CB5 /* Label.m */; };
+		D6396630191A9DDA008F5CB5 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = D639662F191A9DDA008F5CB5 /* Artist.m */; };
+		D6396633191AADBA008F5CB5 /* FDArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6396632191AADBA008F5CB5 /* FDArtistViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		D6396614191A9604008F5CB5 /* CoreDataExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataExampleTests-Info.plist"; sourceTree = "<group>"; };
 		D6396616191A9604008F5CB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6396618191A9604008F5CB5 /* CoreDataExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataExampleTests.m; sourceTree = "<group>"; };
+		D6396625191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FDAppDelegate+CoreDataContext.h"; sourceTree = "<group>"; };
+		D6396626191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FDAppDelegate+CoreDataContext.m"; sourceTree = "<group>"; };
+		D6396629191A9B8C008F5CB5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D639662B191A9DD9008F5CB5 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		D639662C191A9DD9008F5CB5 /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
+		D639662E191A9DDA008F5CB5 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		D639662F191A9DDA008F5CB5 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		D6396631191AADBA008F5CB5 /* FDArtistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDArtistViewController.h; sourceTree = "<group>"; };
+		D6396632191AADBA008F5CB5 /* FDArtistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDArtistViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +129,17 @@
 				D63965FC191A9604008F5CB5 /* FDAppDelegate.h */,
 				D63965FD191A9604008F5CB5 /* FDAppDelegate.m */,
 				D63965FF191A9604008F5CB5 /* Main.storyboard */,
+				D6396625191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.h */,
+				D6396626191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.m */,
+				D6396628191A9B8C008F5CB5 /* Model.xcdatamodeld */,
+				D639662E191A9DDA008F5CB5 /* Artist.h */,
+				D639662F191A9DDA008F5CB5 /* Artist.m */,
+				D639662B191A9DD9008F5CB5 /* Label.h */,
+				D639662C191A9DD9008F5CB5 /* Label.m */,
 				D6396602191A9604008F5CB5 /* FDViewController.h */,
 				D6396603191A9604008F5CB5 /* FDViewController.m */,
+				D6396631191AADBA008F5CB5 /* FDArtistViewController.h */,
+				D6396632191AADBA008F5CB5 /* FDArtistViewController.m */,
 				D6396605191A9604008F5CB5 /* Images.xcassets */,
 				D63965F4191A9604008F5CB5 /* Supporting Files */,
 			);
@@ -250,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D639662D191A9DD9008F5CB5 /* Label.m in Sources */,
+				D6396627191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.m in Sources */,
 				D63965FE191A9604008F5CB5 /* FDAppDelegate.m in Sources */,
+				D6396633191AADBA008F5CB5 /* FDArtistViewController.m in Sources */,
+				D639662A191A9B8C008F5CB5 /* Model.xcdatamodeld in Sources */,
 				D63965FA191A9604008F5CB5 /* main.m in Sources */,
 				D6396604191A9604008F5CB5 /* FDViewController.m in Sources */,
+				D6396630191A9DDA008F5CB5 /* Artist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +495,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D6396628191A9B8C008F5CB5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D6396629191A9B8C008F5CB5 /* Model.xcdatamodel */,
+			);
+			currentVersion = D6396629191A9B8C008F5CB5 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D63965E2191A9604008F5CB5 /* Project object */;
 }

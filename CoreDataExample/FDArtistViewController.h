@@ -1,5 +1,5 @@
 //
-//  FDViewController.h
+//  FDArtistViewController.h
 //  CoreDataExample
 //
 //  Created by Daniel Fairbanks on 5/7/14.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Label.h"
 
-@interface FDViewController : UIViewController
+@interface FDArtistViewController : UIViewController
 
-
+@property (weak, nonatomic) Label *selectedLabel;
 
 @end
