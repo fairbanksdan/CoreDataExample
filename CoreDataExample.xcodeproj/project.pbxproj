@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5366B2191ACB8E0004CCC9 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5366B1191ACB8E0004CCC9 /* Song.m */; };
+		3D5366B5191ACB8F0004CCC9 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5366B4191ACB8F0004CCC9 /* Album.m */; };
+		3D5366B8191ACD440004CCC9 /* FDAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5366B7191ACD440004CCC9 /* FDAlbumViewController.m */; };
+		3D5366BB191AD2560004CCC9 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5366BA191AD2560004CCC9 /* Artist.m */; };
+		3D5366BE191AD6AE0004CCC9 /* FDSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5366BD191AD6AE0004CCC9 /* FDSongViewController.m */; };
 		D63965EE191A9604008F5CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63965ED191A9604008F5CB5 /* Foundation.framework */; };
 		D63965F0191A9604008F5CB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63965EF191A9604008F5CB5 /* CoreGraphics.framework */; };
 		D63965F2191A9604008F5CB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63965F1191A9604008F5CB5 /* UIKit.framework */; };
@@ -24,7 +29,6 @@
 		D6396627191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D6396626191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.m */; };
 		D639662A191A9B8C008F5CB5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6396628191A9B8C008F5CB5 /* Model.xcdatamodeld */; };
 		D639662D191A9DD9008F5CB5 /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = D639662C191A9DD9008F5CB5 /* Label.m */; };
-		D6396630191A9DDA008F5CB5 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = D639662F191A9DDA008F5CB5 /* Artist.m */; };
 		D6396633191AADBA008F5CB5 /* FDArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6396632191AADBA008F5CB5 /* FDArtistViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D5366B0191ACB8E0004CCC9 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		3D5366B1191ACB8E0004CCC9 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		3D5366B3191ACB8F0004CCC9 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		3D5366B4191ACB8F0004CCC9 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		3D5366B6191ACD440004CCC9 /* FDAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDAlbumViewController.h; sourceTree = "<group>"; };
+		3D5366B7191ACD440004CCC9 /* FDAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDAlbumViewController.m; sourceTree = "<group>"; };
+		3D5366B9191AD2560004CCC9 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		3D5366BA191AD2560004CCC9 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		3D5366BC191AD6AE0004CCC9 /* FDSongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSongViewController.h; sourceTree = "<group>"; };
+		3D5366BD191AD6AE0004CCC9 /* FDSongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSongViewController.m; sourceTree = "<group>"; };
 		D63965EA191A9604008F5CB5 /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63965ED191A9604008F5CB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D63965EF191A9604008F5CB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +77,6 @@
 		D6396629191A9B8C008F5CB5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		D639662B191A9DD9008F5CB5 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
 		D639662C191A9DD9008F5CB5 /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
-		D639662E191A9DDA008F5CB5 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
-		D639662F191A9DDA008F5CB5 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
 		D6396631191AADBA008F5CB5 /* FDArtistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDArtistViewController.h; sourceTree = "<group>"; };
 		D6396632191AADBA008F5CB5 /* FDArtistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDArtistViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +105,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D5366AD191AC9A20004CCC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6396628191A9B8C008F5CB5 /* Model.xcdatamodeld */,
+				3D5366B9191AD2560004CCC9 /* Artist.h */,
+				3D5366BA191AD2560004CCC9 /* Artist.m */,
+				D639662B191A9DD9008F5CB5 /* Label.h */,
+				D639662C191A9DD9008F5CB5 /* Label.m */,
+				3D5366B3191ACB8F0004CCC9 /* Album.h */,
+				3D5366B4191ACB8F0004CCC9 /* Album.m */,
+				3D5366B0191ACB8E0004CCC9 /* Song.h */,
+				3D5366B1191ACB8E0004CCC9 /* Song.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3D5366AE191AC9B00004CCC9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D63965FC191A9604008F5CB5 /* FDAppDelegate.h */,
+				D63965FD191A9604008F5CB5 /* FDAppDelegate.m */,
+				D6396625191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.h */,
+				D6396626191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3D5366AF191AC9BD0004CCC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D63965FF191A9604008F5CB5 /* Main.storyboard */,
+				3D5366BC191AD6AE0004CCC9 /* FDSongViewController.h */,
+				3D5366BD191AD6AE0004CCC9 /* FDSongViewController.m */,
+				D6396602191A9604008F5CB5 /* FDViewController.h */,
+				D6396603191A9604008F5CB5 /* FDViewController.m */,
+				D6396631191AADBA008F5CB5 /* FDArtistViewController.h */,
+				D6396632191AADBA008F5CB5 /* FDArtistViewController.m */,
+				3D5366B6191ACD440004CCC9 /* FDAlbumViewController.h */,
+				3D5366B7191ACD440004CCC9 /* FDAlbumViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		D63965E1191A9604008F5CB5 = {
 			isa = PBXGroup;
 			children = (
@@ -126,20 +181,9 @@
 		D63965F3191A9604008F5CB5 /* CoreDataExample */ = {
 			isa = PBXGroup;
 			children = (
-				D63965FC191A9604008F5CB5 /* FDAppDelegate.h */,
-				D63965FD191A9604008F5CB5 /* FDAppDelegate.m */,
-				D63965FF191A9604008F5CB5 /* Main.storyboard */,
-				D6396625191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.h */,
-				D6396626191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.m */,
-				D6396628191A9B8C008F5CB5 /* Model.xcdatamodeld */,
-				D639662E191A9DDA008F5CB5 /* Artist.h */,
-				D639662F191A9DDA008F5CB5 /* Artist.m */,
-				D639662B191A9DD9008F5CB5 /* Label.h */,
-				D639662C191A9DD9008F5CB5 /* Label.m */,
-				D6396602191A9604008F5CB5 /* FDViewController.h */,
-				D6396603191A9604008F5CB5 /* FDViewController.m */,
-				D6396631191AADBA008F5CB5 /* FDArtistViewController.h */,
-				D6396632191AADBA008F5CB5 /* FDArtistViewController.m */,
+				3D5366AD191AC9A20004CCC9 /* Model */,
+				3D5366AF191AC9BD0004CCC9 /* View */,
+				3D5366AE191AC9B00004CCC9 /* Controller */,
 				D6396605191A9604008F5CB5 /* Images.xcassets */,
 				D63965F4191A9604008F5CB5 /* Supporting Files */,
 			);
@@ -273,14 +317,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5366B8191ACD440004CCC9 /* FDAlbumViewController.m in Sources */,
+				3D5366BE191AD6AE0004CCC9 /* FDSongViewController.m in Sources */,
 				D639662D191A9DD9008F5CB5 /* Label.m in Sources */,
 				D6396627191A9A0D008F5CB5 /* FDAppDelegate+CoreDataContext.m in Sources */,
 				D63965FE191A9604008F5CB5 /* FDAppDelegate.m in Sources */,
+				3D5366BB191AD2560004CCC9 /* Artist.m in Sources */,
+				3D5366B5191ACB8F0004CCC9 /* Album.m in Sources */,
 				D6396633191AADBA008F5CB5 /* FDArtistViewController.m in Sources */,
 				D639662A191A9B8C008F5CB5 /* Model.xcdatamodeld in Sources */,
 				D63965FA191A9604008F5CB5 /* main.m in Sources */,
+				3D5366B2191ACB8E0004CCC9 /* Song.m in Sources */,
 				D6396604191A9604008F5CB5 /* FDViewController.m in Sources */,
-				D6396630191A9DDA008F5CB5 /* Artist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +533,7 @@
 				D639661E191A9604008F5CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D639661F191A9604008F5CB5 /* Build configuration list for PBXNativeTarget "CoreDataExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +542,7 @@
 				D6396621191A9604008F5CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
