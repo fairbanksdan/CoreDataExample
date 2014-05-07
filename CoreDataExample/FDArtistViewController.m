@@ -8,6 +8,7 @@
 
 #import "FDArtistViewController.h"
 #import "Artist.h"
+#import "FDAlbumViewController.h"
 
 @interface FDArtistViewController () <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *firstNameTF;
@@ -87,6 +88,15 @@
     cell.textLabel.text = artist.firstName;
     
     return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"goToAlbum"]) {
+        FDAlbumViewController *destination = segue.destinationViewController;
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        destination.selectedArtist = self.artists[indexPath.row];
+    }
 }
 
 @end
